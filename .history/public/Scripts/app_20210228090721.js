@@ -40,7 +40,7 @@
         {
             console.log(button);
             button.addEventListener('click', (event) => {
-                if(!confirm("Do you want to Cancel this contact?"))
+                if(!confirm("Do you want to delete this contact?"))
                 {
                     event.preventDefault();
                     window.location.assign('/business-contacts');
